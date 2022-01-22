@@ -1,0 +1,294 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+header {
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    top: 0px;
+}
+
+#head-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+.head-links {
+    display: flex;
+   
+}
+.head-links > h4 {
+    margin: 0px 10px;
+    cursor: pointer;
+}
+body {
+    background-image: url("../img/back15.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 60px; 
+}
+/* home page css  */
+#content-main {
+    margin: 50px auto;
+    width: 50%;
+    height: 470px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+#content-main > h1 {
+    font-family: 'Lobster', cursive;
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+.discri {
+    margin: 30px 0px;
+    font-size: x-large;
+    font-family: 'Oswald', sans-serif;
+}
+#content-main > button {
+    padding: 20px;
+    font-size: x-large;
+    border-radius: 10px;
+    background-color: #89744a;
+}
+
+/* welcome page css  */
+.welcome {
+    padding: 30px 0px;
+    background-color: #fffdf6;
+}
+.welcome > h1 {
+    text-align: center;
+    color: black;
+}
+.wel-dis {
+    color: black;
+    margin: 0px auto;
+    width: 60%;
+    display: flex;
+    justify-content:space-evenly;
+}
+.wel-dis > p {
+    width: 55%;
+    align-items: baseline;
+    font-size: large;
+    color: black;
+}
+.card-grp {
+    margin: 50px auto 30px auto;
+    width: 65%;
+    display: flex;
+    text-align: center;
+}
+.cards {
+    width: 20%;
+    margin: 0px auto;
+    padding: 20px;
+}
+.cards > * {
+    color: black;
+}
+.cards > button {
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #89744a;
+    color: #fffdf6;
+}
+
+
+
+
+/* Project part css */
+#projects {
+    background-color: #cbb07b;
+    padding-top: 50px;
+}
+#projects > h1 {
+    color: black;
+    text-align: center;
+    padding: 20px 0px;
+}
+.proj {
+    display: flex;
+    width: 80%;
+    margin: 10px auto;
+    color: black;
+}
+.pro-btn {
+    padding: 15px;
+    margin: 15px 0px ;
+    border-radius: 15px;
+    color: black;
+}
+.pro1, .pro2, .pro3, .pro4 {
+    width: 25%;
+}
+.pro1 {
+    background-color: #544b3d;
+}
+.pro2 {
+    background-color: #4c8577;
+}
+.pro3 {
+    background-color: #544b3d;
+}
+.pro4 {
+    background-color: #4c8577;
+}
+.pro-dis {
+    margin: 20px 20px;
+}
+.pro-dis > h2, .pro-dis > p {
+    color: black;
+    margin: 10px 0px;
+}
+.pro-img {
+    width: 100%;
+    height: 350px;
+}
+
+/* pricing part css */
+#pricing {
+    padding: 50px 0px;
+    width: 90%;
+    margin: 0px auto;
+}
+.pri-tab {
+    display: flex;
+    justify-content: space-evenly;
+}
+#pricing > h1 {
+    color: black;
+    text-align: center;
+    padding: 20px 0px 40px 0px;
+}
+.pri1, .pri2, .pri3{
+    text-align: center;
+    line-height: 22px;
+}
+.pri1 > * , .pri2 > * , .pri3 > * {
+    color: black;
+}
+.pri-h2 {
+    margin: 20px 0px;
+    color: black;
+}
+.pri-pri {
+    margin: 20px 0px;
+    color: aliceblue;
+}
+.pri-p {
+    margin-bottom: 20px;
+}
+.pri-btn {
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: black;
+}
+
+/* Team section css */
+#team {
+    padding: 70px 0px 40px 0px;
+    /* background-color: aqua; */
+}
+#team > h1 {
+    text-align: center;
+}
+.team {
+    display: flex;
+    justify-content: space-evenly;
+}
+.mem-img {
+    height: 170px;
+    width: 170px;
+    border-radius: 120px;
+    padding: 25px;
+}
+.team > div > h3, .team > div > p {
+    text-align: center;
+}
+
+/* blog section css */
+#blog > h1 {
+    text-align: center;
+    padding: 70px 0px;
+}
+.blog {
+    display: flex;
+    justify-content: space-evenly;
+}
+.blog > div > img {
+    height: 150px;
+    width: 250px;
+}
+.blog > div {
+    width: 20%;
+}
+.blog-h3, .b-date {
+    text-align: center;
+    margin: 15px 0px;
+}
+.blog-dis {
+    text-align: justify;
+}
+.blog-btn {
+    margin : 20px auto;
+    padding: 15px 25px;
+    background-color: #544b3d;
+}
+
+/* contact section css */
+#contact {
+    margin: 50px 0px;
+    padding: 50px 0px;
+}
+.contact {
+    background-color: #cbb07b;
+    display: flex;
+}
+.contact-img {
+    height: 580px;
+    width: 50%;
+    margin: 0px 20px 0px 0px;
+}
+.contact-dis {
+    margin: 0px 20px;
+}
+.contact-dis >  h1 {
+    margin: 15px 0px;
+}
+.contact-form > input {
+    width: 260px;
+    margin: 10px 0px;
+    padding: 7px ;
+    color: black;
+}
+.contact-form > textarea {
+    color: #000000;
+}
+.sub-btn {
+    width: 277px !important;
+    cursor: pointer;
+}
+
+/* footer section css  */
+footer {
+    margin: 50px 0px;
+    padding: 70px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #000000;
+    opacity: 0.8;
+}
+.foot {
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+}
